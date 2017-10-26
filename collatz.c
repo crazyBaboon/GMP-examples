@@ -1,3 +1,5 @@
+/* This program is licensed under the GNU GPLv2 or later */
+
 #include <gmp.h>
 #include <stdio.h>
 #include <stdlib.h>
