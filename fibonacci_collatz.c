@@ -14,7 +14,7 @@ mpz_init_set_ui(a,1); /*  a = 1  */
 mpz_init_set_ui(b,1); /*  b = 1  */
 mpz_init(c); /* initialize c */
 
-for (int i=1; i <= 1000 ; ++i){
+for (int i=1; i <= 1000 ; ++i){  /* Calculate the 1000th fibonacci number and Collatz it */
     mpz_add(c,a,b); /* c = a + b */
     mpz_mul_ui(a,b,1); /* a = b */
     mpz_mul_ui(b,c,1); /* b = c */
