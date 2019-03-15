@@ -1,6 +1,6 @@
 /* This program is licensed under the GNU GPLv2 or later */
 
-/* The largest known marsenne prime is 2^74,207,281−1 as of October 2017 */
+/* The largest known marsenne prime is 2^82,58,99,33−1 as of March 2019 */
 #include <gmp.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +13,7 @@ int main(int argc, char * argv[])
   mpz_init(a);
 
   base = 2;
-  exponent = 74207281;
+  exponent = 82589933;
 
   mpz_ui_pow_ui (a, base, exponent); /* a = base ^ exponent */
   mpz_sub_ui(a,a,1);  /* a = a - 1 */
