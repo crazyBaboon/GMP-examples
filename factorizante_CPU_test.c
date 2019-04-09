@@ -21,6 +21,7 @@ int main(int argc, char * argv[])
     while (mpz_divisible_p(number_to_factorize,prime_number) != 0) /* returns non-zero if number_to_factorize is divisible by prime_number */
     {
 	  mpz_out_str(stdout,10,prime_number); /* output prime_number factor in base 10 */
+	  printf("\n");
 
     if (mpz_probab_prime_p(prime_number , 40) == 2)
     { 
