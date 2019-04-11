@@ -1,6 +1,6 @@
 /* This program is licensed under the GNU GPLv2 or later */
 
-/* The largest known marsenne prime is 2^82,58,99,33−1 as of March 2019 */
+/* The largest known marsenne prime is 2^82,589,933−1 as of March 2019 */
 #include <gmp.h>
 #include <stdio.h>
 #include <stdlib.h>
