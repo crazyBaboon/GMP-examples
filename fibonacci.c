@@ -26,5 +26,5 @@ int main(int argc, char * argv[]){
     mpz_clear(b); /* Free b from memory */
     mpz_clear(c); /* Free c from memory */
 
-    return 0
+    return 0;
 }
